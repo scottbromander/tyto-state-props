@@ -8,12 +8,12 @@ class MainPageComponent extends Component {
             <div>
                 <h2>Here are all my cool products!</h2>
                 
-                <ProductCellComponent/>
-                <ProductCellComponent/>
-                <ProductCellComponent/>
-                <ProductCellComponent/>
-                <ProductCellComponent/>
-                <ProductCellComponent/>
+                <ProductCellComponent productName="Walkman"/>
+                <ProductCellComponent productName="Record Player"/>
+                <ProductCellComponent productName="Tuba"/>
+                <ProductCellComponent productName="Sega"/>
+                <ProductCellComponent productName="Bicycle"/>
+                <ProductCellComponent productName="Bison"/>
                 
             </div>
         )
